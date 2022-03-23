@@ -1,0 +1,21 @@
+{
+  "name": "itrax/mvc2",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "type": "framework",
+  "authors": [
+    {
+      "name": "Sherif.Hamdy",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "php": "^7"
+  },
+  "autoload": {
+    "psr-4": {
+      "itrax\\": "app"
+    }
+  }
+}
